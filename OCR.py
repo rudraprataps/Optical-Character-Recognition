@@ -32,7 +32,6 @@ IMAGE_PATH = 'typed.jpg'
 
 # In[15]:
 
-
 reader = easyocr.Reader(['en'] , gpu=False)
 result = reader.readtext(IMAGE_PATH)
 result
